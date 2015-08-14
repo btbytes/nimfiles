@@ -1,5 +1,5 @@
 all: nimspeed.nim
-	nimrod c nimspeed.nim
+	nim c -r $<
 
 clean:
 	rm -rf nimcache
